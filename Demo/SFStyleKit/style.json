@@ -1,0 +1,21 @@
+{
+    "variables" : {
+        "$baseFont" : "font(Papyrus-Condensed,22)",
+        "$femaleColor" : "color(50,50,0,255)"
+    },
+    "aliases" : {
+        "$borderColor"  : "layer.borderColor",
+        "$borderWidth"  : "layer.borderWidth",
+        "$cornerRadius" : "layer.cornerRadius"
+        
+    },
+    "element-names" : {
+        "chat.header.name" : {
+            "font" : "$baseFont",
+            "backgroundColor" : "color(100,200,200,100)",
+            "$borderWidth" : 1,
+            "$borderColor" :"color(0,0,25,50)",
+            "$cornerRadius" : 5.3
+        }
+    }
+}
